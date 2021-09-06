@@ -1,0 +1,690 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-06T08:01:33.444Z",
+        "line": 6,
+        "name": "Happy path Login",
+        "description": "",
+        "id": "login-scenarios;happy-path-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26295000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3664348000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login using \"Testone\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testone\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4304922000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be signed in successfully",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_should_be_signed_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T08:01:47.427Z",
+        "line": 19,
+        "name": "Login for multiple user",
+        "description": "",
+        "id": "login-scenarios;login-for-multiple-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34981000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4113666000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login using \"Testone\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testone\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4041006000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be signed in successfully",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_should_be_signed_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T08:02:00.454Z",
+        "line": 20,
+        "name": "Login for multiple user",
+        "description": "",
+        "id": "login-scenarios;login-for-multiple-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 135269000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3453407000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login using \"Testtwo\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testtwo\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4240948000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be signed in successfully",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_should_be_signed_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T08:02:14.075Z",
+        "line": 21,
+        "name": "Login for multiple user",
+        "description": "",
+        "id": "login-scenarios;login-for-multiple-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40650000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3573230000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login using \"Testjoe\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testjoe\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4274732000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be signed in successfully",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_should_be_signed_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Login Scenarios",
+    "description": "  I want to maintain all login scenarios under this feature file",
+    "id": "login-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18850000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3454226000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login using \"Testone\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testone\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4074120000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be signed in successfully",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_should_be_signed_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T08:02:27.865Z",
+        "line": 19,
+        "name": "Place order for various categories",
+        "description": "",
+        "id": "place-order;place-order-for-various-categories;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2728052000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I place an order for \"Phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phones\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.PlaceOrderStepDef.i_place_an_order_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Order should be placed successfully",
+            "match": {
+              "location": "stepDefinition.PlaceOrderStepDef.order_should_be_placed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 171121000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2954043000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login using \"Testone\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testone\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4313159000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be signed in successfully",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_should_be_signed_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T08:02:43.012Z",
+        "line": 20,
+        "name": "Place order for various categories",
+        "description": "",
+        "id": "place-order;place-order-for-various-categories;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994942000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I place an order for \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.PlaceOrderStepDef.i_place_an_order_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Order should be placed successfully",
+            "match": {
+              "location": "stepDefinition.PlaceOrderStepDef.order_should_be_placed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26043000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3022777000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login using \"Testone\" and \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testone\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d93.0.4577.63)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00274.0.0-alpha-2\u0027, revision: \u0027f148142cf8\u0027, time: \u00272019-07-01T20:55:26\u0027\nSystem info: host: \u0027Nagajothis-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:105d:f2ad:a466:dfe5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.10\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/lt/rd138qbd6qx...}, goog:chromeOptions: {debuggerAddress: localhost:50064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b47277baeeb3cc31bde39aae747ab77b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:355)\n\tat jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\n\tat com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)\n\tat pages.LoginPage.verifyLogin(LoginPage.java:62)\n\tat stepDefinition.LoginStepDef.i_should_be_signed_in_successfully(LoginStepDef.java:48)\n\tat ✽.I should be signed in successfully(file:///Users/nagajothikaliappan/Desktop/CucumberProject/PageObject/src/test/resources/PlaceOrder.feature:8)\n",
+              "duration": 3028636000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I should be signed in successfully",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_should_be_signed_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T08:02:57.114Z",
+        "line": 21,
+        "name": "Place order for various categories",
+        "description": "",
+        "id": "place-order;place-order-for-various-categories;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1614000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I place an order for \"Monitors\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Monitors\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.PlaceOrderStepDef.i_place_an_order_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Order should be placed successfully",
+            "match": {
+              "location": "stepDefinition.PlaceOrderStepDef.order_should_be_placed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Place Order",
+    "description": "  I want to place various order for registered user",
+    "id": "place-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/PlaceOrder.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-06T08:03:08.204Z",
+        "line": 7,
+        "name": "Registration Happy path",
+        "description": "",
+        "id": "registration-scenarios;registration-happy-path",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51315000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on homepage",
+            "match": {
+              "location": "stepDefinition.LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3600552000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter unique details for registration",
+            "match": {
+              "location": "stepDefinition.RegistrationStepDef.i_enter_unique_details_for_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1052201000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be registered successfully",
+            "match": {
+              "location": "stepDefinition.RegistrationStepDef.i_should_be_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Registration scenarios",
+    "description": "  I want to have multiple registration scenarios in this feature file",
+    "id": "registration-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Registration.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

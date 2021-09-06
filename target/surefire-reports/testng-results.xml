@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-06T20:01:25 NZST" name="Suite" finished-at="2021-09-06T20:03:13 NZST" duration-ms="107918">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-09-06T20:01:25 NZST" name="Test" finished-at="2021-09-06T20:03:13 NZST" duration-ms="107918">
+      <class name="testRunner.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:25 NZST" name="setUpClass" finished-at="2021-09-06T20:01:26 NZST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:26 NZST" name="setUp" finished-at="2021-09-06T20:01:33 NZST" duration-ms="6957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:33 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:01:41 NZST" duration-ms="8226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Happy path Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:41 NZST" name="tearDown" finished-at="2021-09-06T20:01:41 NZST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:41 NZST" name="setUp" finished-at="2021-09-06T20:01:47 NZST" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:47 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:01:55 NZST" duration-ms="8225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login for multiple user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:55 NZST" name="tearDown" finished-at="2021-09-06T20:01:55 NZST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:01:55 NZST" name="setUp" finished-at="2021-09-06T20:02:00 NZST" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:00 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:02:08 NZST" duration-ms="7859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login for multiple user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:08 NZST" name="tearDown" finished-at="2021-09-06T20:02:08 NZST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:08 NZST" name="setUp" finished-at="2021-09-06T20:02:14 NZST" duration-ms="5534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:14 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:02:21 NZST" duration-ms="7961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login for multiple user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:21 NZST" name="tearDown" finished-at="2021-09-06T20:02:22 NZST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:22 NZST" name="setUp" finished-at="2021-09-06T20:02:27 NZST" duration-ms="5689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:27 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:02:38 NZST" duration-ms="10288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Place order for various categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Place Order]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:38 NZST" name="tearDown" finished-at="2021-09-06T20:02:38 NZST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:38 NZST" name="setUp" finished-at="2021-09-06T20:02:42 NZST" duration-ms="4636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:42 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:02:52 NZST" duration-ms="9456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Place order for various categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Place Order]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:52 NZST" name="tearDown" finished-at="2021-09-06T20:02:52 NZST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:52 NZST" name="setUp" finished-at="2021-09-06T20:02:57 NZST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:02:57 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:03:03 NZST" duration-ms="6118" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Place order for various categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Place Order]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Nagajothis-MacBook-Pro.local', ip: 'fe80:0:0:0:105d:f2ad:a466:dfe5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/lt/rd138qbd6qx...}, goog:chromeOptions: {debuggerAddress: localhost:50064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b47277baeeb3cc31bde39aae747ab77b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Nagajothis-MacBook-Pro.local', ip: 'fe80:0:0:0:105d:f2ad:a466:dfe5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/lt/rd138qbd6qx...}, goog:chromeOptions: {debuggerAddress: localhost:50064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b47277baeeb3cc31bde39aae747ab77b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:355)
+at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
+at pages.LoginPage.verifyLogin(LoginPage.java:62)
+at stepDefinition.LoginStepDef.i_should_be_signed_in_successfully(LoginStepDef.java:48)
+at ✽.I should be signed in successfully(file:///Users/nagajothikaliappan/Desktop/CucumberProject/PageObject/src/test/resources/PlaceOrder.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:03:03 NZST" name="tearDown" finished-at="2021-09-06T20:03:03 NZST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:03:03 NZST" name="setUp" finished-at="2021-09-06T20:03:08 NZST" duration-ms="4771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:03:08 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T20:03:12 NZST" duration-ms="4735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration Happy path"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registration scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:03:12 NZST" name="tearDown" finished-at="2021-09-06T20:03:13 NZST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.CucumberRunner@31f9b85e]" started-at="2021-09-06T20:03:13 NZST" name="tearDownClass" finished-at="2021-09-06T20:03:13 NZST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.CucumberRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="107.008">
+    <testcase classname="Login Scenarios" name="Happy path Login" time="8.014">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+When I login using "Testone" and "Test123"..................................passed
+Then I should be signed in successfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Scenarios" name="Login for multiple user" time="8.197">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+When I login using "Testone" and "Test123"..................................passed
+Then I should be signed in successfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Scenarios" name="Login for multiple user 2" time="7.835">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+When I login using "Testtwo" and "Test123"..................................passed
+Then I should be signed in successfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Scenarios" name="Login for multiple user 3" time="7.898">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+When I login using "Testjoe" and "Test123"..................................passed
+Then I should be signed in successfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Place Order" name="Place order for various categories" time="10.281">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+When I login using "Testone" and "Test123"..................................passed
+Then I should be signed in successfully.....................................passed
+When I place an order for "Phones"..........................................passed
+Then Order should be placed successfully....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Place Order" name="Place order for various categories 2" time="9.438">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+When I login using "Testone" and "Test123"..................................passed
+Then I should be signed in successfully.....................................passed
+When I place an order for "Laptops".........................................passed
+Then Order should be placed successfully....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Place Order" name="Place order for various categories 3" time="6.105">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=93.0.4577.63)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'&#10;System info: host: 'Nagajothis-MacBook-Pro.local', ip: 'fe80:0:0:0:105d:f2ad:a466:dfe5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/lt/rd138qbd6qx...}, goog:chromeOptions: {debuggerAddress: localhost:50064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b47277baeeb3cc31bde39aae747ab77b" type="org.openqa.selenium.StaleElementReferenceException">
+            <![CDATA[Given I am on homepage......................................................passed
+When I login using "Testone" and "Test123"..................................passed
+Then I should be signed in successfully.....................................failed
+When I place an order for "Monitors"........................................skipped
+Then Order should be placed successfully....................................skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Nagajothis-MacBook-Pro.local', ip: 'fe80:0:0:0:105d:f2ad:a466:dfe5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/lt/rd138qbd6qx...}, goog:chromeOptions: {debuggerAddress: localhost:50064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b47277baeeb3cc31bde39aae747ab77b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:355)
+	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
+	at pages.LoginPage.verifyLogin(LoginPage.java:62)
+	at stepDefinition.LoginStepDef.i_should_be_signed_in_successfully(LoginStepDef.java:48)
+	at ✽.I should be signed in successfully(file:///Users/nagajothikaliappan/Desktop/CucumberProject/PageObject/src/test/resources/PlaceOrder.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Registration scenarios" name="Registration Happy path" time="4.715">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+When I enter unique details for registration................................passed
+Then I should be registered successfully....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
